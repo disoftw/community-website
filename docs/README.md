@@ -1,7 +1,6 @@
 ---
 home: true
 heroImage: logo.png
-tagline: 
 actionText: Discover →
 actionLink: /about/
 # features:
@@ -14,7 +13,7 @@ actionLink: /about/
 footer: Made by AAAIMX with ❤️ 
 ---
 
-<br>
+<br/>
 
 # Únete a la **División de Software**
 
@@ -41,12 +40,23 @@ La división de softawre en conjunto con el **Capítulo Estudiantil de Inteligen
   una gran familia.
 - Aportar ideas innovadoras para futuros eventos y propuestas para mejorar
   los concursos actuales de programación.
-- Resolver un pequeño test de 5 ejercicios **(si lo amerita)**, ejemplo: <a target="_blank" href="https://www.dropbox.com/s/w44kd31ot71tdy6/Ajedrez.docx?dl=0" rel="noopener noreferrer"> Haz click bajo tu propio riesgo :space_invader: </a>
+- Resolver un pequeño reto **(si lo amerita)**, ejemplo: <a target="_blank" href="https://challenges.mlh.io/" rel="noopener noreferrer"> Haz click bajo tu propio riesgo :space_invader: </a>
+
 
 # Contacto
 
-Puedes contactarnos en la página oficial de facebook:
+Puedes contactarnos por medio de nuestras redes sociales:
 
-<li><a target="_blank" href="https://www.facebook.com/ClubPrograITM" rel="noopener noreferrer">Club de programación ITM <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> </li>
+<!-- init organization banner -->
+<p align="left">
+    <a href="https://join.slack.com/t/aaaimx/shared_invite/zt-czcguels-DfXBa5Y_IoDVrLv2P5pVGQ" target="_blank">
+        <img src="https://img.shields.io/badge/slack-join%20us-red">
+    </a>
+    <a href="https://web.facebook.com/disoftw" target="_blank">
+        <img src="https://img.shields.io/badge/facebook-%40disoftw-blue">
+    </a>
+</p>
+<!-- end banner -->
+
 
 

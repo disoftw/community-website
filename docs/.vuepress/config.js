@@ -44,12 +44,16 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Workshops',
-        link: '/workshops/'
-      },
-      {
         text: 'About',
         link: '/about/'
+      },
+      {
+        text: 'Resources',
+        link: '/resources/'
+      },
+      {
+        text: 'FAQS',
+        link: '/faqs/'
       },
       {
         text: 'Facebook',
@@ -64,9 +68,18 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            ['integrantes-actuales', 'Miembros'],
-            ['veteranos', 'Veteranos'],
-            ['history', 'Historia']
+            ['members', 'Miembros'],
+            ['veteranos', 'Veteranos']
+          ]
+        }
+      ],
+      '/resources/': [
+        {
+          title: 'Resources',
+          collapsable: false,
+          children: [
+            '',
+            ['video', 'Videos']
           ]
         }
       ]

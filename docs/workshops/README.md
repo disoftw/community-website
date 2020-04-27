@@ -2,14 +2,5 @@
 sidebar: auto
 ---
 
-# Config
+# En construcción
 
-## foo
-
-- Type: `string`
-- Default: `/`
-
-## bar
-
-- Type: `string`
-- Default: `/`
