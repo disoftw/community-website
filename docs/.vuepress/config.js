@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'AAAIMX Software',
+  title: 'Software',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Wellcome to AAAIMX Software Division',
   base: '/software/',
 
   /**
@@ -17,11 +17,18 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#2B5458' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     [
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }
+    ],
+    [
+      'meta',
+      {
+        name: 'og:image',
+        content: 'https://www.aaaimx.org/software/logo.png'
+      }
     ]
   ],
 
@@ -66,21 +73,14 @@ module.exports = {
         {
           title: 'About',
           collapsable: false,
-          children: [
-            '',
-            ['members', 'Miembros'],
-            ['veteranos', 'Veteranos']
-          ]
+          children: ['', ['members', 'Miembros'], ['veteranos', 'Veteranos']]
         }
       ],
       '/resources/': [
         {
           title: 'Resources',
           collapsable: false,
-          children: [
-            '',
-            ['video', 'Videos']
-          ]
+          children: ['', ['video', 'Videos']]
         }
       ]
     }
