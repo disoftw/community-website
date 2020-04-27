@@ -3,6 +3,59 @@
  *
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap')
 
 .home .hero img
   max-width 450px!important
+
+body, html
+  font-family "Roboto", sans-serif
+  font-size 15px
+  font-weight: 300
+
+strong
+  font-weight 600
+
+h1, h2, h3, h4, h5, h6
+  font-weight 250
+  line-height 1.1
+  display: block
+
+p
+  font-size: 15px
+  font-weight: 300
+  line-height: 23px
+
+nav li a, .ant-menu-submenu-title
+  font-size: 13px
+  text-transform: uppercase
+
+.hero #main-title, .home .hero .description
+  font-family: 'Ubuntu', sans-serif
+  // font-style: italic
+  font-size: 42px !important
+  font-weight: 700 !important
+  color: #2B5458
+  margin: 0rem
+  text-transform: uppercase
+
+.home .hero .description
+  max-width: 35rem
+  font-size: 1.5rem !important
+  line-height: .5
+  margin-top: 0rem !important
+
+.site-name
+  font-family: 'Ubuntu', sans-serif
+  color: #2B5458 !important
+  text-transform: uppercase
+
+@media (max-width: 768px)
+  .site-name
+    display: none !important
+  .logo
+    margin: 1rem !important
+  .navbar
+    position fixed !important
+
+

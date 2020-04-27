@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: 'Wellcome to AAAIMX Software Division',
+  description: 'AAAIMX Division',
   base: '/software/',
 
   /**
@@ -29,7 +29,15 @@ module.exports = {
         name: 'og:image',
         content: 'https://www.aaaimx.org/software/logo.png'
       }
-    ]
+    ],
+    // [
+    //   'link',
+    //   {
+    //     href:
+    //       'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap',
+    //     rel: 'stylesheet'
+    //   }
+    // ]
   ],
 
   /**
@@ -66,7 +74,15 @@ module.exports = {
         text: 'Facebook',
         link:
           'https://web.facebook.com/AAAI-MX-Software-Division-109685297309422'
-      }
+      },
+      // {
+      //   text: 'Languages',
+      //   ariaLabel: 'Language Menu',
+      //   items: [
+      //     { text: 'Chinese', link: '/language/chinese/' },
+      //     { text: 'Japanese', link: '/language/japanese/' }
+      //   ]
+      // }
     ],
     sidebar: {
       '/about/': [
