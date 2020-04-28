@@ -30,14 +30,19 @@ module.exports = {
         content: 'https://www.aaaimx.org/software/logo.png'
       }
     ],
-    // [
-    //   'link',
-    //   {
-    //     href:
-    //       'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap',
-    //     rel: 'stylesheet'
-    //   }
-    // ]
+    [
+      'link',
+      {
+        href: 'https://www.aaaimx.org/software/logo.png',
+        rel: 'shortcut icon'
+      },
+      'link',
+      {
+        href:
+          'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap',
+        rel: 'stylesheet'
+      }
+    ]
   ],
 
   /**
@@ -74,7 +79,7 @@ module.exports = {
         text: 'Facebook',
         link:
           'https://web.facebook.com/AAAI-MX-Software-Division-109685297309422'
-      },
+      }
       // {
       //   text: 'Languages',
       //   ariaLabel: 'Language Menu',

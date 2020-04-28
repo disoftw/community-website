@@ -7,7 +7,7 @@
     "name": "",
     "email": ""
   },
-  "repository": "/heroku-workshop",
+  "repository": "https://github.com/aaaimx/software",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs && node publish.js"
