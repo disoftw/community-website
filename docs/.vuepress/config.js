@@ -35,12 +35,6 @@ module.exports = {
       {
         href: 'https://www.aaaimx.org/software/logo.png',
         rel: 'shortcut icon'
-      },
-      'link',
-      {
-        href:
-          'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Ubuntu:wght@700&display=swap',
-        rel: 'stylesheet'
       }
     ]
   ],

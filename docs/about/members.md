@@ -1,3 +1,3 @@
-# Miembros actuales
+# Nuestro equipo
 
 <members/>
